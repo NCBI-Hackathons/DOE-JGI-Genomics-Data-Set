@@ -1,5 +1,6 @@
 # DOE-JGI-Genomics-Data-Set
 Motivation: Support the National Microbiome Data Collaborative - NMDC - multi-agency effort to make microbiome data sets FAIR
+
 Goal: Align metadata for the JGI Soil Metagenomes to the Environmental Ontology (ENVO)
 
 ![Diagram](/diagram_FAIR_hackathon.png)
