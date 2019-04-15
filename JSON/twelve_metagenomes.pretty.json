@@ -1,0 +1,2354 @@
+[
+    {
+        "file_owner": "ekirton",
+        "inputs": [
+            "51d5252f067c014cd6ef0dbd"
+        ],
+        "dt_to_purge": "2019-07-09T17:03:02",
+        "md5sum": "8ffbd961f54f8a1efc775d69be2c35ad",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:09:32.349000",
+        "file_date": "2018-04-07T13:09:27",
+        "modified": "2018-04-07T13:09:32.349000",
+        "file_permissions": "0100664",
+        "file_status": "RESTORED",
+        "file_id": 7869244,
+        "file_size": 404599452,
+        "_id": "5ac9257c64d0b30c1371ad98",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155378",
+        "metadata": {
+            "library_name": [
+                "GXCA"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 348687,
+            "ctg_N90": 226793,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 9.05,
+            "gap_pct": 0,
+            "ctg_max": 630552,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 183991,
+                        "analysis_project_id": 1165725
+                    }
+                ]
+            },
+            "scaf_n_gt50K": 357,
+            "sequencing_project_id": [
+                1006501
+            ],
+            "file_format": "fasta",
+            "scaf_max": 630552,
+            "jat_key": "AUTO-155378",
+            "contig_bp": 396342069,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054516",
+                "display_name": "Contaminated groundwater microbial communities from Rifle, Colorado, USA - Rifle Groundwater A1",
+                "habitat": "Contaminated groundwater",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006501,
+                "isolation": "Rifle, Colorado, USA",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054516",
+                "biosample_accession": "SAMN03202994",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "ctg_L50": 2151,
+            "scaf_N50": 28122,
+            "assembler_version": "3.11.1",
+            "n_contigs": 348687,
+            "final_deliv_project_id": 1006500,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6317.1.42246.CGTACG.fastq.gz"
+            ],
+            "scaf_N90": 226793,
+            "analysis_task_id": [
+                214645
+            ],
+            "gc_avg": 0.4198,
+            "ctg_N50": 28122,
+            "scaf_L90": 394,
+            "gc_std": 0.088,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "ctg_L90": 394,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater A1",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49870",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1601,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006501,
+                "comments": "12/10/12- assembly and annotation will be completed by the PI.  Closing project out. ",
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2012-12-18",
+                "user_program_name": "CSP",
+                "status_date": "2012-12-18",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2013-02-16",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006500,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 396342069,
+            "scaf_L50": 2151,
+            "analysis_project_id": [
+                1165725
+            ]
+        }
+    },
+    {
+        "file_owner": "ekirton",
+        "inputs": [
+            "51d51bb3067c014cd6ee9850"
+        ],
+        "dt_to_purge": "2019-07-09T17:03:03",
+        "md5sum": "4f486e277a01863e201dce64a6c7a945",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:09:54.775000",
+        "file_date": "2018-04-07T13:09:39",
+        "modified": "2018-04-07T13:09:54.775000",
+        "file_permissions": "0100664",
+        "file_status": "RESTORED",
+        "file_id": 7869249,
+        "file_size": 1533845059,
+        "_id": "5ac9259264d0b30c1371ad9e",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155379",
+        "metadata": {
+            "library_name": [
+                "CZBC"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 1424945,
+            "ctg_N90": 950109,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 8.15,
+            "gap_pct": 0,
+            "scaf_max": 1553869,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 183992,
+                        "analysis_project_id": 1165726
+                    }
+                ]
+            },
+            "scaf_n_gt50K": 1207,
+            "sequencing_project_id": [
+                1006504
+            ],
+            "file_format": "fasta",
+            "ctg_max": 1553869,
+            "jat_key": "AUTO-155379",
+            "contig_bp": 1499332537,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054360",
+                "display_name": "Soil microbial communities from Rifle, Colorado, USA -  Groundwater A2",
+                "habitat": "Soil",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006504,
+                "isolation": "Rifle, Colorado, United States",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054360",
+                "biosample_accession": "SAMN03202995",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "ctg_L50": 1975,
+            "scaf_N50": 119017,
+            "assembler_version": "3.11.1",
+            "n_contigs": 1424945,
+            "final_deliv_project_id": 1006503,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6181.4.39404.fastq.gz"
+            ],
+            "scaf_N90": 950109,
+            "analysis_task_id": [
+                214647
+            ],
+            "gc_avg": 0.4687,
+            "ctg_N50": 119017,
+            "scaf_L90": 362,
+            "gc_std": 0.1124,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "ctg_L90": 362,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater A2",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49871",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1602,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006504,
+                "comments": "11/9/12- Brian completed assembly, awaiting annotation. ",
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2012-12-10",
+                "user_program_name": "CSP",
+                "status_date": "2012-12-10",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2012-05-23",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006503,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 1499332537,
+            "scaf_L50": 1975,
+            "analysis_project_id": [
+                1165726
+            ]
+        }
+    },
+    {
+        "file_owner": "torben",
+        "inputs": [
+            "51d5252f067c014cd6ef0db6"
+        ],
+        "dt_to_purge": "2019-07-09T17:03:04",
+        "md5sum": "de44bf9dc723a8eab1cd2610646981d3",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:10:02.620000",
+        "file_date": "2018-03-21T09:13:43",
+        "modified": "2018-04-07T13:10:02.620000",
+        "file_permissions": "0100644",
+        "file_status": "RESTORED",
+        "file_id": 7869254,
+        "file_size": 559942608,
+        "_id": "5ac9259a64d0b30c1371ada5",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155380",
+        "metadata": {
+            "library_name": [
+                "HSBH"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 471838,
+            "ctg_N90": 304764,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 9.14,
+            "gap_pct": 0,
+            "ctg_max": 754755,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 183993,
+                        "analysis_project_id": 1166034
+                    }
+                ]
+            },
+            "contig_bp": 548729601,
+            "sequencing_project_id": [
+                1006507
+            ],
+            "file_format": "fasta",
+            "scaf_max": 754755,
+            "jat_key": "AUTO-155380",
+            "scaf_n_gt50K": 512,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054845",
+                "display_name": "Soil microbial communities from Rifle, Colorado, USA -  Groundwater B1",
+                "habitat": "Soil",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006507,
+                "isolation": "Rifle, Colorado, United States",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054845",
+                "biosample_accession": "SAMN03202996",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "ctg_L50": 2222,
+            "scaf_N50": 38364,
+            "assembler_version": "3.11.1",
+            "n_contigs": 471838,
+            "final_deliv_project_id": 1006506,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6318.5.42196.GGTAGC.fastq.gz"
+            ],
+            "scaf_N90": 304764,
+            "analysis_task_id": [
+                215263
+            ],
+            "gc_avg": 0.4356,
+            "ctg_N50": 38364,
+            "scaf_L90": 404,
+            "gc_std": 0.1039,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "ctg_L90": 404,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater B1",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49872",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1603,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006507,
+                "comments": null,
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2012-12-18",
+                "user_program_name": "CSP",
+                "status_date": "2012-12-18",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2012-05-23",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006506,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 548729601,
+            "scaf_L50": 2222,
+            "analysis_project_id": [
+                1166034
+            ]
+        }
+    },
+    {
+        "file_owner": "torben",
+        "inputs": [
+            "51d52532067c014cd6ef0def"
+        ],
+        "dt_to_purge": "2019-07-09T17:03:05",
+        "md5sum": "02f183f05bc46bf4d954ae45ed659209",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:10:09.144000",
+        "file_date": "2018-03-21T09:12:01",
+        "modified": "2018-04-07T13:10:09.144000",
+        "file_permissions": "0100644",
+        "file_status": "RESTORED",
+        "file_id": 7869259,
+        "file_size": 367845041,
+        "_id": "5ac925a164d0b30c1371adac",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155381",
+        "metadata": {
+            "library_name": [
+                "CZBB"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 319261,
+            "ctg_N90": 204862,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 12.36,
+            "gap_pct": 0,
+            "ctg_max": 727880,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 183994,
+                        "analysis_project_id": 1165832
+                    }
+                ]
+            },
+            "contig_bp": 360293882,
+            "sequencing_project_id": [
+                1006510
+            ],
+            "file_format": "fasta",
+            "scaf_max": 727880,
+            "jat_key": "AUTO-155381",
+            "scaf_n_gt50K": 448,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054602",
+                "display_name": "Soil microbial communities from Rifle, Colorado, USA -  Groundwater B2",
+                "habitat": "Soil",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006510,
+                "isolation": "0.2um groundwater filter, Rifle, CO",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054602",
+                "biosample_accession": "SAMN03202997",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "ctg_L50": 2444,
+            "scaf_N50": 20997,
+            "assembler_version": "3.11.1",
+            "n_contigs": 319261,
+            "final_deliv_project_id": 1006509,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6318.3.42194.GTTTCG.fastq.gz"
+            ],
+            "scaf_N90": 204862,
+            "analysis_task_id": [
+                214859
+            ],
+            "gc_avg": 0.5171,
+            "ctg_N50": 20997,
+            "scaf_L90": 365,
+            "gc_std": 0.1129,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "ctg_L90": 365,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater B2",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49873",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1604,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006510,
+                "comments": null,
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2012-12-18",
+                "user_program_name": "CSP",
+                "status_date": "2012-12-18",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2012-05-23",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006509,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 360293882,
+            "scaf_L50": 2444,
+            "analysis_project_id": [
+                1165832
+            ]
+        }
+    },
+    {
+        "file_owner": "torben",
+        "inputs": [
+            "51d5252a067c014cd6ef0d63"
+        ],
+        "dt_to_purge": "2019-07-09T17:03:06",
+        "md5sum": "29b89df4eb6c85e74c244663666cb0a2",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:10:16.801000",
+        "file_date": "2018-03-21T09:05:39",
+        "modified": "2018-04-07T13:10:16.801000",
+        "file_permissions": "0100644",
+        "file_status": "RESTORED",
+        "file_id": 7869264,
+        "file_size": 387320044,
+        "_id": "5ac925a864d0b30c1371adb2",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155382",
+        "metadata": {
+            "library_name": [
+                "HSBN"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 340101,
+            "ctg_N90": 223157,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 10.44,
+            "gap_pct": 0,
+            "ctg_max": 754741,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 183995,
+                        "analysis_project_id": 1166243
+                    }
+                ]
+            },
+            "contig_bp": 379268725,
+            "sequencing_project_id": [
+                1006513
+            ],
+            "file_format": "fasta",
+            "scaf_max": 754741,
+            "jat_key": "AUTO-155382",
+            "scaf_n_gt50K": 392,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054701",
+                "display_name": "Soil microbial communities from Rifle, Colorado, USA -  Groundwater C1",
+                "habitat": "Soil",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006513,
+                "isolation": "Rifle, Colorado, United States",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054701",
+                "biosample_accession": "SAMN03202998",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "scaf_N50": 27156,
+            "assembler_version": "3.11.1",
+            "n_contigs": 340101,
+            "final_deliv_project_id": 1006512,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6318.5.42196.ATCACG.fastq.gz"
+            ],
+            "scaf_N90": 223157,
+            "analysis_task_id": [
+                215681
+            ],
+            "gc_avg": 0.4306,
+            "ctg_N50": 27156,
+            "scaf_L90": 389,
+            "gc_std": 0.1027,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "ctg_L50": 2035,
+            "ctg_L90": 389,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater C1",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49874",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1605,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006513,
+                "comments": "2/4/13- Brian completed assembly, data available to PI.  no annotation requested at this point.  the PI will most likely submit their assembly to IMG/M. ",
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2013-02-04",
+                "user_program_name": "CSP",
+                "status_date": "2013-02-04",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2012-05-23",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006512,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 379268725,
+            "scaf_L50": 2035,
+            "analysis_project_id": [
+                1166243
+            ]
+        }
+    },
+    {
+        "file_owner": "torben",
+        "inputs": [
+            "51d51bb4067c014cd6ee9865"
+        ],
+        "dt_to_purge": "2019-07-09T17:03:08",
+        "md5sum": "d2e8ecacb732dc74c1365ea48af955dc",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:10:28.135000",
+        "file_date": "2018-03-21T09:16:45",
+        "modified": "2018-04-07T13:10:28.135000",
+        "file_permissions": "0100644",
+        "file_status": "RESTORED",
+        "file_id": 7869269,
+        "file_size": 1084507654,
+        "_id": "5ac925b464d0b30c1371adb8",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155383",
+        "metadata": {
+            "library_name": [
+                "CZBN"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 916984,
+            "ctg_N90": 580701,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 9.49,
+            "gap_pct": 0,
+            "ctg_max": 923412,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 183996,
+                        "analysis_project_id": 1165727
+                    }
+                ]
+            },
+            "scaf_n_gt50K": 990,
+            "sequencing_project_id": [
+                1006516
+            ],
+            "file_format": "fasta",
+            "scaf_max": 923412,
+            "jat_key": "AUTO-155383",
+            "contig_bp": 1062611143,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054775",
+                "display_name": "Soil microbial communities from Rifle, Colorado, USA -  Groundwater C2",
+                "habitat": "Soil",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006516,
+                "isolation": "Rifle, Colorado, United States",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054775",
+                "biosample_accession": "SAMN03202999",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "scaf_N50": 76824,
+            "assembler_version": "3.11.1",
+            "n_contigs": 916984,
+            "final_deliv_project_id": 1006515,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6181.7.39407.fastq.gz"
+            ],
+            "scaf_N90": 580701,
+            "analysis_task_id": [
+                214649
+            ],
+            "gc_avg": 0.4855,
+            "ctg_N50": 76824,
+            "scaf_L90": 382,
+            "gc_std": 0.1126,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "ctg_L50": 2196,
+            "ctg_L90": 382,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater C2",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49875",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1606,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006516,
+                "comments": "10/26/12- assembly completed, awaiting annotation. ",
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2012-12-10",
+                "user_program_name": "CSP",
+                "status_date": "2012-12-10",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2012-05-23",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006515,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 1062611143,
+            "scaf_L50": 2196,
+            "analysis_project_id": [
+                1165727
+            ]
+        }
+    },
+    {
+        "file_owner": "torben",
+        "inputs": [
+            "51d51bb3067c014cd6ee9857"
+        ],
+        "dt_to_purge": "2019-07-09T17:03:08",
+        "md5sum": "3628646dfa5db4b0bdb51ee502823006",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:10:33.273000",
+        "file_date": "2018-03-21T09:09:53",
+        "modified": "2018-04-07T13:10:33.273000",
+        "file_permissions": "0100644",
+        "file_status": "RESTORED",
+        "file_id": 7869274,
+        "file_size": 191242057,
+        "_id": "5ac925b964d0b30c1371adbe",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155384",
+        "metadata": {
+            "library_name": [
+                "CZBG"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 151329,
+            "ctg_N90": 91471,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 12.27,
+            "gap_pct": 0,
+            "ctg_max": 485912,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 183997,
+                        "analysis_project_id": 1166244
+                    }
+                ]
+            },
+            "contig_bp": 187721266,
+            "sequencing_project_id": [
+                1006519
+            ],
+            "file_format": "fasta",
+            "scaf_max": 485912,
+            "jat_key": "AUTO-155384",
+            "scaf_n_gt50K": 248,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054700",
+                "display_name": "Soil microbial communities from Rifle, Colorado, USA -  Groundwater D1",
+                "habitat": "Soil",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006519,
+                "isolation": "Rifle, Colorado, United States",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054700",
+                "biosample_accession": "SAMN03203000",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "ctg_L50": 3430,
+            "scaf_N50": 8016,
+            "assembler_version": "3.11.1",
+            "n_contigs": 151329,
+            "final_deliv_project_id": 1006518,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6181.5.39405.fastq.gz"
+            ],
+            "scaf_N90": 91471,
+            "analysis_task_id": [
+                215683
+            ],
+            "gc_avg": 0.3945,
+            "ctg_N50": 8016,
+            "scaf_L90": 367,
+            "gc_std": 0.1207,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "ctg_L90": 367,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater D1",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49876",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1607,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006519,
+                "comments": "10/26/12- assembly completed, awaiting annotation. ",
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2012-12-10",
+                "user_program_name": "CSP",
+                "status_date": "2012-12-10",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2012-05-23",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006518,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 187721266,
+            "scaf_L50": 3430,
+            "analysis_project_id": [
+                1166244
+            ]
+        }
+    },
+    {
+        "file_owner": "ekirton",
+        "inputs": [
+            "51d5252e067c014cd6ef0daa"
+        ],
+        "dt_to_purge": "2019-07-09T16:45:45",
+        "md5sum": "3d6b20a2ba86b37c19563d40a3d30f64",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:10:39.796000",
+        "file_date": "2018-04-07T13:10:35",
+        "modified": "2018-04-07T13:10:39.796000",
+        "file_permissions": "0100664",
+        "file_status": "RESTORED",
+        "file_id": 7869279,
+        "file_size": 257245416,
+        "_id": "5ac925bf64d0b30c1371adc4",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155385",
+        "metadata": {
+            "library_name": [
+                "CZBP"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 188436,
+            "ctg_N90": 110257,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 15.19,
+            "gap_pct": 0,
+            "ctg_max": 513242,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 183998,
+                        "analysis_project_id": 1165515
+                    }
+                ]
+            },
+            "contig_bp": 252834057,
+            "sequencing_project_id": [
+                1006522
+            ],
+            "file_format": "fasta",
+            "scaf_max": 513242,
+            "jat_key": "AUTO-155385",
+            "scaf_n_gt50K": 342,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054800",
+                "display_name": "Groundwater microbial communities from Rifle, Colorado, USA -  Groundwater D2",
+                "habitat": "Groundwater",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006522,
+                "isolation": "Rifle, Colorado, United States",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054800",
+                "biosample_accession": "SAMN03203001",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "ctg_L50": 3133,
+            "scaf_N50": 11638,
+            "assembler_version": "3.11.1",
+            "n_contigs": 188436,
+            "final_deliv_project_id": 1006521,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6318.3.42194.TTAGGC.fastq.gz"
+            ],
+            "scaf_N90": 110257,
+            "analysis_task_id": [
+                214225
+            ],
+            "gc_avg": 0.438,
+            "ctg_N50": 11638,
+            "scaf_L90": 444,
+            "gc_std": 0.1141,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "ctg_L90": 444,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater D2",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49877",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1608,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006522,
+                "comments": null,
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2013-02-21",
+                "user_program_name": "CSP",
+                "status_date": "2013-02-21",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2013-04-22",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006521,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 252834057,
+            "scaf_L50": 3133,
+            "analysis_project_id": [
+                1165515
+            ]
+        }
+    },
+    {
+        "file_owner": "torben",
+        "inputs": [
+            "51d5252c067c014cd6ef0d84"
+        ],
+        "dt_to_purge": "2019-07-09T17:03:11",
+        "md5sum": "4891c3ef5ba14435b6442eac4276830a",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:10:44.948000",
+        "file_date": "2018-03-21T09:02:07",
+        "modified": "2018-04-07T13:10:44.948000",
+        "file_permissions": "0100644",
+        "file_status": "RESTORED",
+        "file_id": 7869284,
+        "file_size": 182564369,
+        "_id": "5ac925c464d0b30c1371adca",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155386",
+        "metadata": {
+            "library_name": [
+                "GOAU"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 116899,
+            "ctg_N90": 61830,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 18.33,
+            "gap_pct": 0,
+            "ctg_max": 875117,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 183999,
+                        "analysis_project_id": 1165833
+                    }
+                ]
+            },
+            "scaf_n_gt50K": 306,
+            "sequencing_project_id": [
+                1006525
+            ],
+            "file_format": "fasta",
+            "scaf_max": 875117,
+            "jat_key": "AUTO-155386",
+            "contig_bp": 179869898,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054642",
+                "display_name": "Soil microbial communities from Rifle, Colorado, USA -  Groundwater E1",
+                "habitat": "Soil",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006525,
+                "isolation": "Rifle, Colorado, United States",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054642",
+                "biosample_accession": "SAMN03203002",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "ctg_L50": 5188,
+            "scaf_N50": 4700,
+            "assembler_version": "3.11.1",
+            "n_contigs": 116899,
+            "final_deliv_project_id": 1006524,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6317.1.42246.ATCACG.fastq.gz"
+            ],
+            "scaf_N90": 61830,
+            "analysis_task_id": [
+                214861
+            ],
+            "gc_avg": 0.4249,
+            "ctg_N50": 4700,
+            "scaf_L90": 421,
+            "gc_std": 0.1339,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "ctg_L90": 421,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater E1",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49878",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1609,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006525,
+                "comments": null,
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2012-12-18",
+                "user_program_name": "CSP",
+                "status_date": "2012-12-18",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2012-05-23",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006524,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 179869898,
+            "scaf_L50": 5188,
+            "analysis_project_id": [
+                1165833
+            ]
+        }
+    },
+    {
+        "file_owner": "torben",
+        "inputs": [
+            "51d5252b067c014cd6ef0d69"
+        ],
+        "dt_to_purge": "2019-07-09T17:03:12",
+        "md5sum": "4ba8eeda043996a6d84170a63210b6b7",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:10:51.215000",
+        "file_date": "2018-03-21T09:12:53",
+        "modified": "2018-04-07T13:10:51.215000",
+        "file_permissions": "0100644",
+        "file_status": "RESTORED",
+        "file_id": 7869289,
+        "file_size": 291320874,
+        "_id": "5ac925cb64d0b30c1371add0",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155387",
+        "metadata": {
+            "library_name": [
+                "CZBO"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 227443,
+            "ctg_N90": 137390,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 20.37,
+            "gap_pct": 0,
+            "scaf_max": 788208,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 184000,
+                        "analysis_project_id": 1165834
+                    }
+                ]
+            },
+            "scaf_n_gt50K": 487,
+            "sequencing_project_id": [
+                1006528
+            ],
+            "file_format": "fasta",
+            "ctg_max": 788208,
+            "jat_key": "AUTO-155387",
+            "contig_bp": 285973347,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054404",
+                "display_name": "Groundwater microbial communities from Rifle, Colorado -  Groundwater E2",
+                "habitat": "Groundwater",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006528,
+                "isolation": "Rifle, Colorado, United States",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054404",
+                "biosample_accession": "SAMN03203003",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "ctg_L50": 3272,
+            "scaf_N50": 9822,
+            "assembler_version": "3.11.1",
+            "n_contigs": 227443,
+            "final_deliv_project_id": 1006527,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6318.3.42194.CGATGT.fastq.gz"
+            ],
+            "scaf_N90": 137390,
+            "analysis_task_id": [
+                214863
+            ],
+            "gc_avg": 0.4009,
+            "ctg_N50": 9822,
+            "scaf_L90": 385,
+            "gc_std": 0.1036,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "ctg_L90": 385,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater E2",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49879",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1610,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006528,
+                "comments": null,
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2013-04-05",
+                "user_program_name": "CSP",
+                "status_date": "2013-04-05",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2013-06-04",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006527,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 285973347,
+            "scaf_L50": 3272,
+            "analysis_project_id": [
+                1165834
+            ]
+        }
+    },
+    {
+        "file_owner": "torben",
+        "inputs": [
+            "51d52532067c014cd6ef0de9"
+        ],
+        "dt_to_purge": "2019-07-09T17:03:13",
+        "md5sum": "c0b65ba1f4ff7ffa6fc293ae260a327c",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:10:57.084000",
+        "file_date": "2018-03-21T09:11:06",
+        "modified": "2018-04-07T13:10:57.084000",
+        "file_permissions": "0100644",
+        "file_status": "RESTORED",
+        "file_id": 7869294,
+        "file_size": 233820710,
+        "_id": "5ac925d164d0b30c1371add6",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155388",
+        "metadata": {
+            "library_name": [
+                "GXCB"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 177394,
+            "ctg_N90": 108594,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 14.09,
+            "gap_pct": 0,
+            "ctg_max": 825227,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 184001,
+                        "analysis_project_id": 1165932
+                    }
+                ]
+            },
+            "contig_bp": 229674359,
+            "sequencing_project_id": [
+                1006531
+            ],
+            "file_format": "fasta",
+            "scaf_max": 825227,
+            "jat_key": "AUTO-155388",
+            "scaf_n_gt50K": 316,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054403",
+                "display_name": "Soil microbial communities from Rifle, Colorado, USA -  Groundwater F1",
+                "habitat": "Soil",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006531,
+                "isolation": "Rifle, Colorado, United States",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054403",
+                "biosample_accession": "SAMN03203004",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "scaf_N50": 9991,
+            "assembler_version": "3.11.1",
+            "n_contigs": 177394,
+            "final_deliv_project_id": 1006530,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6317.1.42246.GAGTGG.fastq.gz"
+            ],
+            "scaf_N90": 108594,
+            "analysis_task_id": [
+                215059
+            ],
+            "gc_avg": 0.4354,
+            "ctg_N50": 9991,
+            "scaf_L90": 419,
+            "gc_std": 0.1152,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "ctg_L50": 3036,
+            "ctg_L90": 419,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater F1",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49880",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1611,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006531,
+                "comments": "2/4/13- Brian completed assembly, data available to PI.  no annotation requested at this point.  the PI will most likely submit their assembly to IMG/M. ",
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2013-02-04",
+                "user_program_name": "CSP",
+                "status_date": "2013-02-04",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2012-05-23",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006530,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 229674359,
+            "scaf_L50": 3036,
+            "analysis_project_id": [
+                1165932
+            ]
+        }
+    },
+    {
+        "file_owner": "torben",
+        "inputs": [
+            "51d51bb3067c014cd6ee985d"
+        ],
+        "dt_to_purge": "2019-07-09T17:03:14",
+        "md5sum": "9bb863cbecd5e8d8cd36a9a94fe1d4be",
+        "group": "pkmeco",
+        "file_status_id": 13,
+        "file_type": [
+            "contigs"
+        ],
+        "file_name": "final.contigs.fasta",
+        "user": "eskirton",
+        "added_date": "2018-04-07T13:11:06.436000",
+        "file_date": "2018-03-21T09:05:14",
+        "modified": "2018-04-07T13:11:06.437000",
+        "file_permissions": "0100644",
+        "file_status": "RESTORED",
+        "file_id": 7869299,
+        "file_size": 799514451,
+        "_id": "5ac925da64d0b30c1371addc",
+        "file_group": "genome",
+        "file_path": "/global/dna/dm_archive/pkmeco/analyses/AUTO-155389",
+        "metadata": {
+            "library_name": [
+                "CZBH"
+            ],
+            "subtitle": "IMG reassembly, ASSEMBLY_DATE=20180321",
+            "n_scaffolds": 599305,
+            "ctg_N90": 354609,
+            "template_name": "metagenome",
+            "assembler": "spades",
+            "scaf_pct_gt50K": 17.43,
+            "gap_pct": 0,
+            "scaf_max": 1346285,
+            "omics": {
+                "img_submission_id": [
+                    {
+                        "img_submission_id": 184002,
+                        "analysis_project_id": 1165933
+                    }
+                ]
+            },
+            "scaf_n_gt50K": 1180,
+            "sequencing_project_id": [
+                1006534
+            ],
+            "file_format": "fasta",
+            "ctg_max": 1346285,
+            "jat_key": "AUTO-155389",
+            "contig_bp": 785242236,
+            "gold_data": {
+                "its_proposal_id": 564,
+                "gold_stamp_id": "Gp0054641",
+                "display_name": "Soil microbial communities from Rifle, Colorado, USA -  Groundwater F2",
+                "habitat": "Soil",
+                "ecosystem": "Environmental",
+                "ncbi_project_id": 268031,
+                "gpts_proposal_id": 300792,
+                "its_spid": 1006534,
+                "isolation": "Rifle, Colorado, United States",
+                "bioproject_accession": "PRJNA268031",
+                "gold_project_url": "https://gold.jgi.doe.gov/projects?id=Gp0054641",
+                "biosample_accession": "SAMN03203005",
+                "sra_id": []
+            },
+            "proposal_id": 564,
+            "proposal": {
+                "doi": "10.25585/1487721",
+                "title": "Terabase sequencing for comprehensive genome reconstruction to assess metabolic potential for environmental bioremediation",
+                "contact_associations": {
+                    "co_pi": [
+                        8686,
+                        8687,
+                        8688,
+                        8689,
+                        8690,
+                        8691,
+                        8692,
+                        8693,
+                        7504,
+                        12965,
+                        16755,
+                        4015,
+                        5901
+                    ],
+                    "primary_contact_for_materials": [],
+                    "authorized_collaborator": [],
+                    "collaborator": [],
+                    "pi": [
+                        3931
+                    ],
+                    "primary_contact_for_material": [],
+                    "data_submitter": []
+                },
+                "default_project_manager": {
+                    "first_name": "Tijana",
+                    "last_name": "Glavina del Rio",
+                    "email_address": "tglavina@lbl.gov",
+                    "contact_id": 2309
+                },
+                "suggested_purpose": "Programmatic",
+                "default_embargo_days": "0",
+                "gpts_proposal_extid": 300792,
+                "public_portal_url": null,
+                "year": 2012,
+                "active": false,
+                "funding_program": "CSP",
+                "pi": {
+                    "middle_name": "",
+                    "first_name": "Jill",
+                    "last_name": "Banfield",
+                    "email_address": "jbanfield@berkeley.edu",
+                    "institution": "UC Berkeley"
+                },
+                "type": "Csp2012Proposal",
+                "id": 564,
+                "date_approved": "2011-09-30"
+            },
+            "ctg_L50": 3097,
+            "scaf_N50": 31781,
+            "assembler_version": "3.11.1",
+            "n_contigs": 599305,
+            "final_deliv_project_id": 1006533,
+            "portal": {
+                "display_location": [
+                    "QC and Genome Assembly"
+                ]
+            },
+            "seq_unit_name": [
+                "6181.6.39406.fastq.gz"
+            ],
+            "scaf_N90": 354609,
+            "analysis_task_id": [
+                215061
+            ],
+            "gc_avg": 0.4333,
+            "ctg_N50": 31781,
+            "scaf_L90": 415,
+            "gc_std": 0.1119,
+            "publish_to": [
+                "portal"
+            ],
+            "jat_label": "contigs",
+            "assembler_parameters": "spades.py -m 2000 -o spades3 --only-assembler -k 33,55,77,99,127 --meta -t 32",
+            "ctg_L90": 415,
+            "sequencing_project": {
+                "ref_genome_type": null,
+                "sequencing_project_name": "Rifle Groundwater F2",
+                "scientific_program_name": "Metagenome",
+                "eligible_public_release": "Y",
+                "sequencing_product_id": 15,
+                "gls_sequencing_project_id": "GLA49881",
+                "ref_transcriptome_type": null,
+                "user_program_year": "2012",
+                "taxonomy_info_id": 1612,
+                "actual_sequencing_product_id": 15,
+                "program_purpose": "Programmatic",
+                "sequencing_product_name": "Metagenome Standard Draft",
+                "sequencing_project_id": 1006534,
+                "comments": "11/9/12- Brian completed assembly, awaiting annotation. ",
+                "author_names": null,
+                "is_raw_data_releasable": "Y",
+                "ref_transcriptome": null,
+                "actual_sequencing_product_name": "Metagenome Standard Draft",
+                "ref_genome": null,
+                "embargo_start_date": "2012-12-10",
+                "user_program_name": "CSP",
+                "status_date": "2012-12-10",
+                "project_contact_cid": 3931,
+                "genome_size_mb": 5,
+                "sample_contact_cid": 3931,
+                "availability_date": "2012-05-23",
+                "proposal_id": 564,
+                "genomic_resources": null,
+                "material_type": "eDNA",
+                "project_manager_cid": 2309,
+                "auto_schedule_sow_items": "Y",
+                "embargo_days": 0,
+                "final_deliv_project_id": 1006533,
+                "is_analyzed_data_releasable": "Y",
+                "default_account_id": 68,
+                "sp_portal_visibility": "Y",
+                "current_status": "Complete",
+                "sp_project_visibility": "Y",
+                "sample_mapping_strategy": "1:All",
+                "sp_visibility": "DataAvailable"
+            },
+            "scaf_bp": 785242236,
+            "scaf_L50": 3097,
+            "analysis_project_id": [
+                1165933
+            ]
+        }
+    }
+]
