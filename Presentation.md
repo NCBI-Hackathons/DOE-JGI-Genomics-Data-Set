@@ -2,8 +2,6 @@
 # DOE-JGI-Genomics-Data-Set
 Motivation: Support the National Microbiome Data Collaborative (NMDC)- a multi-agency effort to make microbiome data sets FAIR
 
-![NMDC_logo](/nmdc_logo.jpeg)
-
 Challenge
 
 ![Diagram](/slides/Slide2.jpg)
