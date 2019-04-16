@@ -1,0 +1,14 @@
+# Rectangularizing JSON data is not necessary, but the flattened minimal data will be much easier to understand for this exercise
+make.rectangular.data.R
+
+# Merging JAMO and GOLD data to get more sample environment fields
+merge_data_with_GOLD.R
+
+# Querying bioontology.org for recommended ENVO ontology classes for "habitat", "ECOSYSTEM_CATEGORY", "ECOSYSTEM_TYPE", and "ECOSYSTEM_SUBTYPE" field text.
+ENVO_annotate.R
+
+# Chris providing magic to trim the ENVO information from bioontology.org.
+../ENVO_mappings/combine_create_stripped_data.py
+
+# Adding ENVO tags to our sample data.
+merge_with_ENVO.R
